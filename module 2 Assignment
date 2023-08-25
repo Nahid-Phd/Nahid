@@ -1,0 +1,49 @@
+Description:
+
+You have been tasked with developing a simple console-based Stationary Items Shop Management System. The system should allow users to perform basic operations such as adding items, viewing the available items, calculating the total cost of items, and generating a sales report.
+
+Requirements:
+
+Item Class:
+
+Create a class named Item with the following attributes:
+
+item_id (unique identifier for each item)
+name (name of the item)
+price (price of the item)
+quantity (available quantity of the item)
+Shop Class:
+
+Create a class named Shop which will manage the items in the shop. It should have the following methods:
+
+__init__(self): Initialize an empty list to store items.
+add_item(self, name, price, quantity): Add a new item to the shop with the given name, price, and quantity. Generate a unique item_id for each item.
+view_items(self): Display a list of all available items with their item_id, name, price, and quantity.
+calculate_total(self, item_ids): Given a list of item_ids, calculate the total cost of the selected items and return it.
+generate_sales_report(self, filename): Generate a sales report and write it to a file named filename. The report should include the item_id, name, price, quantity, and total cost for each item.
+Main Function:
+
+Write a main function that demonstrates the functionality of the Shop class. Create an instance of the Shop class and allow the user to interact with the system by providing options to perform the following actions:
+
+Add an item.
+View available items.
+Calculate the total cost of selected items.
+Generate a sales report.
+Guidelines:
+
+Use appropriate error handling techniques to handle invalid inputs or edge cases.
+Store items in a list within the Shop class.
+You can assume that the user interacts with the system through the console.
+You can decide on the format of the sales report, but ensure it includes relevant details for each item.
+Submission:
+
+Submit your assignment as a single source code file (e.g., stationary_shop.py) along with any necessary instructions for running the program. Also, include a brief document explaining your code's design and any assumptions you made during development.
+
+Note:
+
+This assignment is designed to assess your object-oriented programming skills, input handling, and file I/O capabilities. Feel free to add extra features or expand upon the basic requirements if you wish to demonstrate a deeper understanding of programming concepts.
+
+
+
+
+
