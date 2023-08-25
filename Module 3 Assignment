@@ -1,0 +1,44 @@
+Background:
+You are tasked with creating a simple command-line Political Party Management System. This system will allow users to manage political parties, their members, and some basic information about each member.
+
+Requirements:
+
+Create a class named PoliticalParty:
+
+Attributes:
+name (string): The name of the political party.
+founding_year (integer): The year the party was founded.
+ideology (string): The political ideology of the party (e.g., conservative, liberal, socialist, etc.).
+Methods:
+__init__(self, name, founding_year, ideology): Constructor to initialize the attributes.
+display_info(self): Method to display the party's information.
+Create a class named PartyMember:
+
+Attributes:
+name (string): The name of the party member.
+age (integer): The age of the party member.
+position (string): The role or position of the party member (e.g., leader, spokesperson, member).
+Methods:
+__init__(self, name, age, position): Constructor to initialize the attributes.
+display_info(self): Method to display the member's information.
+Implement the following functionalities in the main program loop:
+
+Display a menu with the following options:
+Create a new political party.
+Create a new party member.
+Display information about a political party.
+Display information about a party member.
+Exit the program.
+For each option, prompt the user for necessary information and create instances of the PoliticalParty and PartyMember classes accordingly.
+Implement appropriate error handling for user inputs.
+Ensure that the program maintains a list of created political parties and party members.
+
+Use object-oriented principles to ensure encapsulation and reusability of code.
+
+Note:
+
+Focus on the core functionality and structure of the program. The user interface can be simple, using command-line input and output.
+Ensure proper validation of user inputs to handle potential errors.
+Use Python as the programming language for this assignment.
+Submission:
+Submit a single Python file named political_party_management.py containing the implementation of the Political Party Management System as per the requirements above
